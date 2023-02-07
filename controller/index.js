@@ -18,7 +18,7 @@ $("form").on("submit", function(ev) {
     var formData = new FormData(this);
       
     $.ajax({
-      url: "upload.php",
+      url: "php/upload.php",
       type: "POST",
       data: formData,
       success: function (msg) {

@@ -58,7 +58,7 @@
         <div class=" p-5  ">
             <h1 class="text-center">Upload Image </h1>
             <p class="text-center text-black-50"> Upload the image that would be scanned for text</p>
-            <form name="uploader" action="test.php" method="post" enctype="multipart/form-data">
+            <form name="uploader" action="php/test.php" method="post" enctype="multipart/form-data">
                 Select image to upload:
                 <br>
                 <br>
