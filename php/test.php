@@ -12,7 +12,7 @@ function console_log($output, $with_script_tags = false) {
 
   //Below is a script used to upload file in php 
 // with the help of $_FILES constant
-$target_dir = "uploads/";
+$target_dir = "../uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
