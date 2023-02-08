@@ -1,0 +1,60 @@
+=
+=
+
+ 
+
+Organization Demo ‘A department Parent incident
+riul sharma Urgency medium arent problem
+New Priority high a
+system generated Priority Reason Parent Request
+‘Agent Interface Down (linkDown Trap) Ro
+
+Request Type incident
+
+Description
+
+a
+
+‘AlinkDown trap signifies that the sending protocol entity
+recognizes a falure in one of the communication link represented
+in the agent's configuration.
+
+Instance: 49
+
+esc: Unknown
+
+IfName: Unknown
+
+Ifalias: Unknown
+
+ae aad
+Time!
+
+1: 192.168.1208,
+
+Node Label: undefined
+
+ 
+
+reassign count 0
+
+ey
+
+undefined
+undefined
+
+Ce)
+
+Service
+
+Service
+
+subcategory
+Private log
+
+ 
+
+undefined
+
+Undefined
+
