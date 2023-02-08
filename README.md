@@ -6,7 +6,7 @@ Seek is GUI wrapper for Tesseract OCR
 
 Tesseract can be downloaded in PHP thorugh composer 
 
-```sh
+```php
 composer require thiagoalessio/tesseract_ocr
 ```
 **‼️ This library depends on Tesseract OCR, version 3.02 or later.**
