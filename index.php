@@ -17,7 +17,7 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
         <div class="container-fluid">
-        
+
             <a class="navbar-brand" href="#"><img style="margin-right: 10px;" src="./assets/4.ico" alt="logo">&nbsp;
                 Seek</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -43,18 +43,20 @@
 
         <div class="bg-light p-5 rounded text-center row shadow p-3 mb-5 bg-white rounded">
             <div class="col">
-                <img class='img-fluid' style="max-height: 288px;" src="./assets/3.png" alt="logo" >
+                <img class='img-fluid' style="max-height: 288px;" src="./assets/3.png" alt="logo">
             </div>
             <div class="col" style="display: flex;align-content: center;align-items: center;">
-                
+
                 <h1>Seek | A OCR Wrapper</h1>
                 <p class="lead mt-5">Seek is a minimalistic GUI wrapper for <a
-                        href="https://tesseract-ocr.github.io/tessdoc/Installation.html">tesseract-ocr</a> <br><span class="text-black-50">Go to official docs to know more.</span>
-                    </p>
-                
+                        href="https://tesseract-ocr.github.io/tessdoc/Installation.html">tesseract-ocr</a> <br><span
+                        class="text-black-50">Go to official docs to know more.</span>
+                </p>
+
 
             </div>
         </div>
+
         <div class=" p-5  ">
             <h1 class="text-center">Upload Image </h1>
             <p class="text-center text-black-50"> Upload the image that would be scanned for text</p>
@@ -67,20 +69,20 @@
                 <input type="submit" class="btn btn-outline-success mt-4" value="Upload Image" name="submit">
             </form>
         </div>
+        <div class="toast-container position-absolute bottom-0 end-0">
+            <div class="toast " role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header text-bg-success">
+                    <img src="./assets/3.ico" class="rounded me-2" alt="logo.">
+                    <strong class="me-auto">Uploaded Sucessfully</strong>
+                    <small class="text-muted">just now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
 
+            </div>
+        </div>
     </main>
 
-    <div class="toast-container position-static ">
-        <div class="toast text-bg-success" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header text-bg-success">
-                <img src="./assets/3.ico" class="rounded me-2" alt="logo.">
-                <strong class="me-auto">Uploaded Sucessfully</strong>
-                <small class="text-muted">just now</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
 
-        </div>
-    </div>
 
 
 
