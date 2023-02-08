@@ -1,4 +1,4 @@
-<?php include_once "php/header.php";?>
+<?php include_once "php/header.php"; ?>
 
 
 
@@ -61,12 +61,7 @@
                 <input type="submit" class="btn btn-outline-success mt-4" value="Upload Image" name="submit">
             </form>
         </div>
-        <div class=" p-5  text-center">
-            <h1 class="text-center">Output</h1>
-            <p class="text-center text-black-50"> Scanned Text</p>
-            <textarea name="output" id="output" cols="100" rows="10" readonly placeholder="Output of the scanned image would be displayed here "></textarea>
-           
-        </div>
+        
         <div class="toast-container position-absolute bottom-0 end-0">
             <div class="toast " role="alert" aria-live="assertive" aria-atomic="true">
                 <div class="toast-header text-bg-success">
@@ -78,6 +73,7 @@
 
             </div>
         </div>
+        
     </main>
 
 
@@ -97,8 +93,5 @@
 
 
 <?php
-$cmd = '';
-
-exec($cmd, $output, $retval);
-
+echo "hello";
 ?>
