@@ -1,6 +1,6 @@
 # Seek 
 
-
+![logo](./assets/4.png)
 
 Seek is GUI wrapper for Tesseract OCR 
 
